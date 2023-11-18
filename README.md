@@ -18,7 +18,12 @@
 ```volume_lv``` 은/는 볼륨 조정 단계를 정한다.<br>
 └ (예) 50 => 0.5 / 15 => 0.15<br><br>
 
-그 후 ```SoundControlProgram.exe``` 파일을 실행한다.
+그 후 ```SoundControlProgram.exe``` 프로그램 파일을 실행한다.<br><br>
+
+# 시작 프로그램
+ - ```SoundControlProgram.exe``` 프로그램 파일의 바로가기를 만든다.
+ - ```Windows + R``` 키를 눌러 실행을 실행시킨다.
+ - ```shell:startup``` 명령어를 실행하여 ```SoundControlProgram.exe``` 프로그램 파일의 바로가기 파일을 집어 넣는다.
 
 # NewSoundControlProgram
 Made By Zandura1212
