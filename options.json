@@ -1,0 +1,12 @@
+{
+
+    "programs" : [
+
+        {"name" : "spotify",
+         "p_name" : "Spotify.exe"}
+
+    ],
+
+    "volume_lv" : 0.05
+
+}
