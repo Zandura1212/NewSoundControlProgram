@@ -31,7 +31,7 @@
 ```sleep``` 내의 ```enable``` 은/는 sleep을 활성화 여부를 결정한다.<br>
 └ true: 활성화<br>└ false: 비활성화<br>
 ```sleep``` 내의 ```time``` 은/는 sleep 시간을 결정한다.<br>
-└ (예) ```0.1 => 0.1초```<br><br>
+└ (예) ```0.1 => 0.1초```<br>
 └ (예) ```5 => 5초```<br><br>
 
 그 후 ```SoundControlProgram.exe``` 프로그램 파일을 실행한다.<br><br>
