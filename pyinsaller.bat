@@ -14,5 +14,8 @@ copy .\dist\SoundControlProgram.exe .\
 del .\SoundControlProgram.spec
 rmdir /s /q build dist
 
+:zip
+tar -cvzf SoundControlProgram.zip .\*.json .\*.exe
+
 pause
 @echo on
