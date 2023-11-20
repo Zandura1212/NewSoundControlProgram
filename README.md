@@ -1,8 +1,8 @@
 # 사용된 라이브러리
  - [pycaw](https://pycaw.readthedocs.io/en/latest/)
 <br>└```pip install pycaw```
- - [keyboard](https://pypi.org/project/keyboard/)
-<br>└```pip install keyboard```
+ - [pywin32](https://pypi.org/project/pywin32/)
+<br>└```pip install pywin32```
  - [pyinstaller](https://pyinstaller.org/en/stable/)
 <br>└```pip install pyinstaller```
  - json
