@@ -2,10 +2,21 @@
 
     "programs" : [
 
-        {"name" : "spotify",
-         "p_name" : "Spotify.exe"}
+        {
+
+            "name" : "spotify",
+            "p_name" : "Spotify.exe"
+
+        }
 
     ],
+
+    "sleep" : {
+
+        "enable" : false,
+        "time" : 0.1
+
+    },
 
     "volume_lv" : 0.05
 
