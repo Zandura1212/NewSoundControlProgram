@@ -6,7 +6,6 @@ import json
 import win32api
 import win32con
 from time import sleep
-from win10toast import ToastNotifier
 from pycaw.pycaw import AudioUtilities, ISimpleAudioVolume
 
 options = open('options.json')
@@ -18,14 +17,6 @@ options_sleep_list = options_loads['sleep']
 options_volume_lv_list = options_loads['volume_lv']
 
 program_count = len(options_programs_list)
-
-alarm = ToastNotifier()
-alarm.show_toast(
-    "SoundControlProgram",
-    "프로그램이 실행되었습니다!",
-    duration = 0,
-    icon_path = "icon.ico",
-    threaded = True)
 
 def volume_p():
 
@@ -48,7 +39,6 @@ def volume_p():
 
                 else:
                     volume.SetMasterVolume(current_volume + float(options_loads['volume_lv']), None)
-
 
 def volume_m():
 
