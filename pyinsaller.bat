@@ -2,9 +2,8 @@
 cls
 
 :del
-if exist .\*.exe (
-	del *.exe
-)
+if exist .\*.exe (del *.exe)
+if exist .\*.zip (del *.zip)
 
 :exe
 pyinstaller --icon=./icon.ico --onefile -w -n=SoundControlProgram main.py
